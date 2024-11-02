@@ -21,7 +21,7 @@ việc tìm kiếm thông tin quan trọng.
    source myenv/bin/activate  # trên macOS/Linux
    myenv\\Scripts\\activate  # trên Windows```
 
-#Cài Đặt Thư Viện Cần Thiết
+## Cài Đặt Thư Viện Cần Thiết
 
  ```bash
 pip install python-docx transformers torch
