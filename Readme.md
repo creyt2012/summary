@@ -19,9 +19,15 @@ việc tìm kiếm thông tin quan trọng.
    ```bash
    python -m venv myenv
    source myenv/bin/activate  # trên macOS/Linux
-   myenv\\Scripts\\activate  # trên Windows
+   myenv\\Scripts\\activate  # trên Windows```
+
 #Cài Đặt Thư Viện Cần Thiết
+
  ```bash
 pip install python-docx transformers torch
 python summary.py
-
+```
+## Đảm bảo rằng bạn cũng đã cài đặt torch, vì nhiều mô hình trong transformers yêu cầu thư viện này. Bạn có thể cài đặt torch như sau (tùy thuộc vào hệ điều hành và CUDA mà bạn đang sử dụng):
+ ```bash
+  pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+ ```
