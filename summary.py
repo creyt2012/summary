@@ -7,7 +7,8 @@ class TextSummarizerApp(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
-        self.summarizer = pipeline("summarization", model="facebook/bart-large-multilingual")
+        # Sử dụng mô hình BART cho tiếng Việt
+        self.summarizer = pipeline("summarization", model="vinai/bartpho-summarization")
 
     def initUI(self):
         self.setWindowTitle("Text Summarizer")
