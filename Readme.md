@@ -31,3 +31,24 @@ python summary.py
  ```bash
   pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
  ```
+
+## các mô hình ngôn ngữ thay thế
+1. BART
+Hugging Face BART
+2. BART cho tiếng Việt
+bartpho
+3. T5
+Hugging Face T5
+mT5
+4. LED (Longformer Encoder-Decoder)
+Hugging Face LED
+5. PEGASUS
+Hugging Face PEGASUS
+6. VietAI/vit5-base
+VietAI vit5-base
+7. UniLM
+Hugging Face UniLM
+8. DistilBART
+Hugging Face DistilBART
+9. mBART
+Hugging Face mBART
