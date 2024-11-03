@@ -52,3 +52,5 @@ Hugging Face UniLM
 Hugging Face DistilBART
 9. mBART
 Hugging Face mBART
+
+### Hệ thống sẽ hoạt động tốt với tài nguyên 16 core - 128gb ram
